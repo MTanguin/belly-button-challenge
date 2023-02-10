@@ -56,3 +56,13 @@ Complete the following steps:
 
 RESULTS
 
+![Alt text](result/bellyButtonBiodiversityDashboard.png)
+
+
+
+Sources:
+https://courses.bootcampspot.com/courses/2799/assignments/42892?module_item_id=803534
+https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+https://d3js.org/d3.v5.min.js
+https://cdn.plot.ly/plotly-latest.min.js
