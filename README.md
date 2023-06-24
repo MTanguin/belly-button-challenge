@@ -1,57 +1,30 @@
-# belly-button-challenge
+#### "Explore the Microbial Diversity of Belly Buttons with Interactive Visualizations"
 
-## BACKGROUND
+# Background
 
-In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site., which catalogs the microbes that colonize human navels.
+The Belly Button Biodiversity dataset is a comprehensive catalog of microbes found in human navels. This dataset reveals that a small number of microbial species, known as operational taxonomic units (OTUs), are prevalent in more than 70% of individuals, while the remaining species are relatively rare. Exploring this dataset can provide valuable insights into the diversity and composition of microbial communities in human navels.
 
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+# Methods
 
-## OBJECTIVES
+1. Use the D3 library to read the samples.json file from the provided URL: https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.. This file contains the data required for the interactive dashboard.
 
+2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in a selected individual's navel. The chart should show the following:
+   - Use the sample_values as the values for the bar chart.
+   - Use the otu_ids as the labels for the bar chart.
+   - Use the otu_labels as hovertext for the chart.
 
-Complete the following steps:
+3. Create a bubble chart to visualize each sample. The chart should display the following:
+   - Use the otu_ids for the x-axis values.
+   - Use the sample_values for the y-axis values.
+   - Use the sample_values for the marker size.
+   - Use the otu_ids for the marker colors.
+   - Use the otu_labels for the text values.
 
-1. Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
+4. Display the sample metadata, which includes demographic information about the selected individual.
 
-2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+5. Display each key-value pair from the metadata JSON object on the dashboard, providing additional information about the individual.
 
----Use sample_values as the values for the bar chart.
-
----Use otu_ids as the labels for the bar chart.
-
----Use otu_labels as the hovertext for the chart.
-
-
-![Alt text](https://static.bc-edx.com/data/dl-1-2/m14/lms/img/hw01.jpg)
-
-
-3. Create a bubble chart that displays each sample.
-
----Use otu_ids for the x values.
-
----Use sample_values for the y values.
-
----Use sample_values for the marker size.
-
----Use otu_ids for the marker colors.
-
----Use otu_labels for the text values.
-
-
-![Alt text](https://static.bc-edx.com/data/dl-1-2/m14/lms/img/bubble_chart.jpg)
-
-
-4. Display the sample metadata, i.e., an individual's demographic information.
-
-5. Display each key-value pair from the metadata JSON object somewhere on the page.
-
-
-![Alt text](https://static.bc-edx.com/data/dl-1-2/m14/lms/img/hw03.jpg)
-
-6. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
-
-
-![Alt text](https://static.bc-edx.com/data/dl-1-2/m14/lms/img/hw02.jpg)
+6. Ensure that all plots and displayed information are updated dynamically when a new sample is selected. Create a visually appealing layout for the dashboard, presenting the data in an intuitive and user-friendly manner.
 
 
 ## RESULTS
