@@ -6,7 +6,7 @@ The Belly Button Biodiversity dataset is a comprehensive catalog of microbes fou
 
 # Methods
 
-1. Use the D3 library to read the samples.json file from the provided [URL](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json) This file contains the data required for the interactive dashboard.
+1. Use the D3 library to read the samples.json file from the provided [URL](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json). This file contains the data required for the interactive dashboard.
 
 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in a selected individual's navel. The chart should show the following:
    - Use the sample_values as the values for the bar chart.
