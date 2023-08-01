@@ -27,7 +27,7 @@ The Belly Button Biodiversity dataset is a comprehensive catalog of microbes fou
 6. Ensure that all plots and displayed information are updated dynamically when a new sample is selected. Create a visually appealing layout for the dashboard, presenting the data in an intuitive and user-friendly manner.
 
 
-## Results
+# Results
 
 ![Alt text](result/bellyButtonBiodiversityDashboard.png)
 
